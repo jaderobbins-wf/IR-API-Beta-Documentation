@@ -16,7 +16,7 @@ Endpoint for retriving and writing Issues.
 #### GET `/issues`
 
 Example Issues reponse:
-```json
+```javascript
 {
   "data": [
     {
@@ -129,7 +129,7 @@ Endpoint for retriving and writing Controls.
 
 #### GET `/controls`
 Example Controls Response:
-```json
+```javascript
 {
   "data": [
   {
