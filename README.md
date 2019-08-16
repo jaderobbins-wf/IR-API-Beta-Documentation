@@ -174,7 +174,30 @@ Example Controls Response:
 Endpoint for retriving and writing Risks.
 
 #### GET `/risks`
-
+Example Risks response: 
+```javascript
+{
+  "data": [
+  {
+      "id": "eee1f417-985e-4e89-8288-856be409c21a",
+      "type": "risk",
+      "attributes": {
+        "title": "Accrued liability balances are understated or incorrect on the balance sheet; period expenses are not recognized.",
+        "description": ""
+      },
+      "relationships": {
+        "exposes_assertions": {
+          "data": []
+        },
+        "incurred_by_processes": {
+          "data": []
+        }
+      }
+    }
+  ],
+  "included": []
+}
+```
 
 #### PUT `/risks`
 
