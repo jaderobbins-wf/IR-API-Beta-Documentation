@@ -8,7 +8,7 @@ Authentication Guide: https://success.workiva.com/developers/guides/authenticati
 ## IR API
 Base URL: `https://api.wk-dev.wdesk.org/audit/v1beta1/`
 
-The Integrated Risk endpoints follow JSON:API (https://jsonapi.org).
+The Integrated Risk endpoints follow JSON:API specification (https://jsonapi.org).
 
 ### Issues
 Endpoint for retriving and writing Issues.
