@@ -13,7 +13,7 @@ The Integrated Risk endpoints follow JSON:API specification (https://jsonapi.org
 ### Issues
 Endpoint for retriving and writing Issues.
 
-#### GET `/issues`
+##### GET `/issues`
 
 Example Issues reponse:
 ```javascript
@@ -121,13 +121,13 @@ Example Issues reponse:
   ]
 }
 ```
-#### PUT `/issues`
+##### PUT `/issues`
 
 
 ### Controls
 Endpoint for retriving and writing Controls.
 
-#### GET `/controls`
+##### GET `/controls`
 Example Controls Response:
 ```javascript
 {
@@ -167,13 +167,13 @@ Example Controls Response:
   ]
 }
 ```
-#### PUT `/controls`
+##### PUT `/controls`
 
 
 ### Risks
 Endpoint for retriving and writing Risks.
 
-#### GET `/risks`
+##### GET `/risks`
 Example Risks response: 
 ```javascript
 {
@@ -199,5 +199,5 @@ Example Risks response:
 }
 ```
 
-#### PUT `/risks`
+##### PUT `/risks`
 
