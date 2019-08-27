@@ -121,8 +121,6 @@ Example Issues reponse:
   ]
 }
 ```
-##### PUT `/issues`
-
 
 ### Controls
 Endpoint for retriving and writing Controls.
@@ -167,8 +165,6 @@ Example Controls Response:
   ]
 }
 ```
-##### PUT `/controls`
-
 
 ### Risks
 Endpoint for retriving and writing Risks.
@@ -198,6 +194,3 @@ Example Risks response:
   "included": []
 }
 ```
-
-##### PUT `/risks`
-
