@@ -6,7 +6,7 @@ Setting up integration users: https://success.workiva.com/developers/guides/setu
 Authentication Guide: https://success.workiva.com/developers/guides/authentication
 
 ## IR API
-Base URL: `https://api.wk-dev.wdesk.org/audit/v1beta1/`
+Base URL: `https://api.app.wdesk.com/audit/v1beta1/`
 
 The Integrated Risk endpoints follow JSON:API specification (https://jsonapi.org).
 
