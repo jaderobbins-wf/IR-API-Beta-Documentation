@@ -194,3 +194,53 @@ Example Risks response:
   "included": []
 }
 ```
+
+### Reports
+Endpoints for retriving Reports.
+
+##### GET '/reports'
+Endpoint for retriving a list of reports.
+
+Example response:
+```javascript
+{
+  "data" : [ {
+    "attributes" : {
+      "display" : "Data Source: Report Person(p)..."
+    },
+    "id" : "Report ID",
+    "type" : "DataSource"
+  }, {
+    "attributes" : {
+      "display" : "Data Source: Report Person(p)..."
+    },
+    "id" : "Report ID",
+    "type" : "DataSource"
+  } ]
+}
+```
+
+##### GET '/reports/{report_id}'
+Endpoint for retriving a report description.
+
+Example response:
+```javascript
+{
+  "data" : {
+    "attributes" : {
+      "display" : "Data Source: Report Person(p)..."
+    },
+    "id" : "Report ID",
+    "type" : "DataSource"
+  }
+}
+```
+
+##### GET '/reports/{report_id}/csv'
+Endpoint for retriving a report as a CSV.
+
+Example response:
+```
+header1,header2,header3
+val1,val2,val3
+```
